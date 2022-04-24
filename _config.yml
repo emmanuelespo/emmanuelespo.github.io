@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Personal website # the website title (if blank, full name will be used instead)
+title: Emmanuel Esposito # the website title (if blank, full name will be used instead)
 first_name: Emmanuel
 middle_name:
 last_name: Esposito
-email: emmanuel [dot] esposito [at] unimi [dot] it
+email: emmanuel.esposito@unimi.it
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   My personal website.
 footer_text: >
@@ -29,7 +29,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -215,7 +215,7 @@ jekyll-archives:
 scholar:
 
   last_name: Esposito
-  first_name: Emmanuel
+  first_name: [Emmanuel, E.]
 
   style: apa
   locale: en
