@@ -3,7 +3,8 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  <a href="https://www.unimi.it/">University of Milan</a> and <a href="https://www.iit.it/">IIT</a>. Email: <code>emmanuel [dot] esposito [at] unimi [dot] it</code>.
+  <p><a href="https://www.unimi.it/">University of Milan</a> and <a href="https://www.iit.it/">IIT</a></p>
+  <p>Email: <code>emmanuel [dot] esposito [at] unimi [dot] it</code></p>
 
 profile:
   align: right
@@ -13,8 +14,8 @@ profile:
     <p>via Celoria, 18</p>
     <p>20133 Milan, Italy</p>
 
-news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
