@@ -73,15 +73,15 @@
           <!-- Journal/Book title and date -->
           {% if entry.type == "article" -%}
             {%- if entry.toappear -%}
-              {%- capture entrytype -%}<em>To appear in {{entry.toappear}}</em>{%- endcapture -%}
+              {%- capture entrytype -%}<em>To appear in {{entry.toappear}}</em>.{%- endcapture -%}
             {%- else -%}
-              {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
+              {%- capture entrytype -%}<em>{{entry.journal}}</em>.{%- endcapture -%}
             {%- endif -%}
           {%- elsif entry.type == "inproceedings" or entry.type == "inbook" -%}
-            {%- capture entrytype -%}<em>In {{entry.booktitle}}</em>{%- endcapture -%}
+            {%- capture entrytype -%}<em>In {{entry.booktitle}}</em>.{%- endcapture -%}
           {%- else -%}
             {%- capture entrytype -%}{%- endcapture -%}
-          {%- endif -%}.
+          {%- endif -%}
           {%- if entry.month -%}
             {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
           {%- endif -%}
