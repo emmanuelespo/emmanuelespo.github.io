@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: >
   <a href="https://www.unimi.it/">University of Milan</a> and <a href="https://www.iit.it/">IIT</a>. Email: <code>emmanuel [dot] esposito [at] unimi [dot] it</code>.
