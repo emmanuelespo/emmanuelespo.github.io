@@ -71,7 +71,7 @@
           </div>
 
           <!-- Journal/Book title and date -->
-          {% if entry.type == "article" -%}
+          {%- if entry.type == "article" -%}
             {%- if entry.toappear -%}
               {%- capture entrytype -%}<em>To appear in {{entry.toappear}}</em>.{%- endcapture -%}
             {%- else -%}
