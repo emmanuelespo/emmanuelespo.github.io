@@ -16,3 +16,19 @@
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+
+"Cesa-Bianchi":
+  - firstname: ["Nicolò", "N.", "Nicolo"]
+    url: https://cesa-bianchi.di.unimi.it
+
+"Fusco":
+  - firstname: ["Federico", "F."]
+    url: https://sites.google.com/uniroma1.it/federicofusco/home
+
+"van der Hoeven":
+  - firstname: ["Dirk", "D."]
+    url: https://dirkvanderhoeven.com/
+
+"Van der Hoeven":
+  - firstname: ["Dirk", "D."]
+    url: https://dirkvanderhoeven.com/
