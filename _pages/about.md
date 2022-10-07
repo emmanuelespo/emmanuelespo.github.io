@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: >
   <p><a href="https://www.unimi.it/">University of Milan</a> and <a href="https://www.iit.it/">IIT</a><br>
-  Email: <code>emmanuel [dot] esposito [at] unimi [dot] it</code></p>
+  Email: <code>emmanuel [at] emmanuelesposito [dot] it</code></p>
 
 profile:
   align: right
