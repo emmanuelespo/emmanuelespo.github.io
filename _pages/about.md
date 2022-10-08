@@ -23,4 +23,7 @@ I am a PhD Student in Computer Science at the University of Milan.
 
 My supervisor is Prof. [Nicolò Cesa-Bianchi](https://cesa-bianchi.di.unimi.it/).
 
-**Research interests:** Online Learning, Statistical Learning Theory, Combinatorial Optimization
+**Research interests:**
+- Online Learning
+- Statistical Learning Theory
+- Combinatorial Optimization
