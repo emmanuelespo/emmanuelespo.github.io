@@ -19,11 +19,11 @@ news: false # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD Student in Computer Science at the University of Milan.
+I am a PhD Student in Computer Science at [LAILA](https://sites.google.com/view/lailaunimi), University of Milan.
 
 My supervisor is Prof. [Nicolò Cesa-Bianchi](https://cesa-bianchi.di.unimi.it/).
 
 **Research interests:**
-- Online Learning
-- Statistical Learning Theory
+- Online Learning and Multiarmed Bandits
 - Combinatorial Optimization
+- Statistical Learning Theory
