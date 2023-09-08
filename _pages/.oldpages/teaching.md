@@ -4,6 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: List of teaching activities.
 nav: true
+nav_order: 5
 ---
 
 <!--

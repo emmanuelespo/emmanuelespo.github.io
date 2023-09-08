@@ -1,5 +1,5 @@
 
           <div class="publications">
-            <h2>Selected publications</h2>
-            {% bibliography -f papers -q @*[selected=true]* %}
+            <h2>Recent publications</h2>
+            {% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true]* %}
           </div>

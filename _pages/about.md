@@ -9,13 +9,15 @@ subtitle: >
 profile:
   align: right
   image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
   address: >
     <p>Room 7023</p>
     <p>via Celoria, 18</p>
     <p>20133 Milan, Italy</p>
 
+news: true  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-news: false # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
