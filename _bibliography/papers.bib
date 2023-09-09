@@ -8,7 +8,8 @@
     html = {https://proceedings.mlr.press/v202/esposito23a.html},
     arxiv = {2305.19036},
     abbr = {ICML},
-    selected = {true}
+    selected = {true},
+    abstract = {We study a $K$-armed bandit with delayed feedback and intermediate observations. We consider a model where intermediate observations have a form of a finite state, which is observed immediately after taking an action, whereas the loss is observed after an adversarially chosen delay. We show that the regime of the mapping of states to losses determines the complexity of the problem, irrespective of whether the mapping of actions to states is stochastic or adversarial. If the mapping of states to losses is adversarial, then the regret rate is of order $\sqrt{(K+d)T}$ (within log factors), where $T$ is the time horizon and $d$ is a fixed delay. This matches the regret rate of a $K$-armed bandit with delayed feedback and without intermediate observations, implying that intermediate observations are not helpful. However, if the mapping of states to losses is stochastic, we show that the regret grows at a rate of $\sqrt{\bigl(K+\min\{|\mathcal{S}|,d\}\bigr)T}$ (within log factors), implying that if the number $|\mathcal{S}|$ of states is smaller than the delay, then intermediate observations help. We also provide refined high-probability regret upper bounds for non-uniform delays, together with experimental validation of our algorithms.}
 }
 
 @article{esposito2022stochasticfeedback,
@@ -21,7 +22,8 @@
     html = {https://proceedings.neurips.cc/paper_files/paper/2022/hash/e0e956681b04ac126679e8c7dd706b2e-Abstract-Conference.html},
     arxiv = {2210.04229},
     abbr = {NeurIPS},
-    selected = {true}
+    selected = {true},
+    abstract = {The framework of feedback graphs is a generalization of sequential decision-making with bandit or full information feedback. In this work, we study an extension where the directed feedback graph is stochastic, following a distribution similar to the classical Erdős-Rényi model. Specifically, in each round every edge in the graph is either realized or not with a distinct probability for each edge. We prove nearly optimal regret bounds of order $\min\bigl\{\min_{\varepsilon} \sqrt{(\alpha_\varepsilon/\varepsilon) T},\, \min_{\varepsilon} (\delta_\varepsilon/\varepsilon)^{1/3} T^{2/3}\bigr\}$ (ignoring logarithmic factors), where $\alpha_{\varepsilon}$ and $\delta_{\varepsilon}$ are graph-theoretic quantities measured on the support of the stochastic feedback graph $\mathcal{G}$ with edge probabilities thresholded at~$\varepsilon$. Our result, which holds without any preliminary knowledge about $\mathcal{G}$, requires the learner to observe only the realized out-neighborhood of the chosen action. When the learner is allowed to observe the realization of the entire graph (but only the losses in the out-neighborhood of the chosen action), we derive a more efficient algorithm featuring a dependence on weighted versions of the independence and weak domination numbers that exhibits improved bounds for some special cases.}
 }
 
 @inbook{esposito2020recsplit,
@@ -39,5 +41,6 @@
     arxiv = {1910.06416},
     code = {https://github.com/vigna/sux},
     abbr = {ALENEX},
-    bibtex_show = {true}
+    bibtex_show = {true},
+    abstract = {A minimal perfect hash function bijectively maps a key set $S$ out of a universe $U$ into the first $|S|$ natural numbers. Minimal perfect hash functions are used, for example, to map irregularly-shaped keys, such as strings, in a compact space so that metadata can then be simply stored in an array. While it is known that just 1.44 bits per key are necessary to store a minimal perfect hash function, no published technique can go below 2 bits per key in practice. We propose a new technique for storing minimal perfect hash functions with expected linear construction time and expected constant lookup time that makes it possible to build for the first time, for example, structures which need 1.56 bits per key, that is, within 8.3\% of the lower bound, in less than 2 ms per key. We show that instances of our construction are able to simultaneously beat the construction time, space usage and lookup time of the state-of-the-art data structure reaching 2 bits per key. Moreover, we provide parameter choices giving structures which are competitive with alternative, larger-size data structures in terms of space and lookup time. The construction of our data structures can be easily parallelized or mapped on distributed computational units (e.g., within the MapReduce framework), and structures larger than the available RAM can be directly built in mass storage.}
 }

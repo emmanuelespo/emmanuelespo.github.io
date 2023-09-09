@@ -91,3 +91,8 @@ html[data-theme='dark'] {
     display: block;
   }
 }
+
+table.table-news th, table.table-news td {
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+}
