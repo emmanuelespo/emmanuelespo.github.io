@@ -112,12 +112,16 @@
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
         {% if entry.type == "article" -%}
           {%- if entry.toappear -%}
-            {%- capture entrytype -%}<em>To appear in {{entry.toappear}}</em>{%- endcapture -%}
+            {%- capture entrytype -%}<em>To appear in {{entry.journal}}</em>{%- endcapture -%}
           {%- else -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
           {%- endif -%}
         {%- elsif proceedings contains entry.type -%}
-          {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+          {%- if entry.toappear -%}
+            {%- capture entrytype -%}<em>To appear in {{entry.booktitle}}</em> {%- endcapture -%}
+          {%- else -%}
+            {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+          {%- endif -%}
         {%- elsif thesis contains entry.type -%}
           {%- capture entrytype -%}<em>{{entry.school}}</em> {%- endcapture -%}
         {%- else -%}
